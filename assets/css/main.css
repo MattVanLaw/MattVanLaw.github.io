@@ -2621,6 +2621,16 @@ input, select, textarea {
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
+		.devicon {
+			width: 60px;
+			font-size: 46px;
+			display: block;
+		}
+		.dev-icons {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
 
 /* Footer */
 
