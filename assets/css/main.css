@@ -6,6 +6,16 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.work-links a{
+	display: flex;
+	justify-content: end;
+	margin-right: 30px;
+}
+
+.actions {
+	display: flex;
+	justify-content: center;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2549,6 +2559,7 @@ input, select, textarea {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
+			color: rgb(117, 117, 117);
 		}
 
 /* Header */
@@ -2573,9 +2584,9 @@ input, select, textarea {
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("https://images.unsplash.com/photo-1485550409059-9afb054cada4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7dd4351794fdd325ab865ced79786118&auto=format&fit=crop&w=701&q=80");
-		background-position: top left,							top left;
+		/* background-position: top left,							top left; */
 		background-repeat: repeat,								no-repeat;
-		background-size: cover;
+		/* background-size: cover; */
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2611,7 +2622,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.7);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
